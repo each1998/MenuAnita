@@ -1,0 +1,875 @@
+
+.contenido {
+  background-color: #F4D03F;
+  padding: 0;
+  margin: 0;
+
+}
+
+.logo {
+  background-color: #229954;
+  display: table;
+  padding: 3px;
+  text-align: center;
+
+}
+
+.MENU {
+  text-align: center;
+  display: table;
+  font-size: 100pt;
+  background-color: #E74C3C;
+  color: #FBFCFC;
+font-family: 'Teko', sans-serif;
+
+}
+
+.MENU p {
+  margin: 0;
+  padding: 0;
+  display: table-cell;
+  vertical-align: middle;
+
+}
+
+.TACOS {
+  text-align: center;
+  padding: 20px;
+  background-color: #F4D03F;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Teko', sans-serif;
+}
+
+.TACOS figure {
+  position: relative;
+  height: 200px;
+  width: 250px;
+  overflow: hidden;
+  box-shadow: 0px 1px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.TACOS img {
+  transition: all 500ms ease-out;
+}
+
+.TACOS figure .INFO1 {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(23, 32, 42, 0.7);
+  transition: all 500ms ease-out;
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+}
+
+.TACOS figure:hover>.INFO1 {
+  opacity: 1;
+  visibility: visible;
+}
+
+.TACOS figure:hover>.INFO1 h3 {
+  margin-top: 70px;
+  margin-bottom: 15px;
+}
+
+.TACOS figure:hover>img {
+  transform: scale(1.3);
+}
+
+.TACOS figure .INFO1 h3 {
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 120px;
+  transition: all 500ms ease-out;
+  margin-top: 30px;
+}
+
+.TACOS figure .INFO1 p {
+  color: #fff;
+  font-size: 20px;
+  line-height: 1.5;
+  width: 100%;
+  max-width: 220px;
+  margin: auto;
+}
+
+.LONCHE {
+  text-align: center;
+  padding: 20px;
+  background-color:  #F4D03F;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Teko', sans-serif;
+
+}
+
+.LONCHE figure {
+  position: relative;
+  height: 200px;
+  width: 250px;
+  overflow: hidden;
+  box-shadow: 0px 1px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.LONCHE figure .INFO2 {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(23, 32, 42, 0.7);
+  transition: all 500ms ease-out;
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+}
+
+.LONCHE figure:hover>.INFO2 {
+  opacity: 1;
+  visibility: visible;
+}
+
+.LONCHE figure:hover>.INFO2 h3 {
+  margin-top: 70px;
+  margin-bottom: 15px;
+}
+
+.LONCHE figure:hover>img {
+  transform: scale(1.3);
+}
+
+.LONCHE figure .INFO2 h3 {
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 120px;
+  transition: all 500ms ease-out;
+  margin-top: 30px;
+}
+
+.LONCHE figure .INFO2 p {
+  color: #fff;
+  font-size: 20px;
+  line-height: 1.5;
+  width: 100%;
+  max-width: 220px;
+  margin: auto;
+}
+
+.LONCHE img {
+  transition: all 500ms ease-out;
+}
+
+.BIRRIA {
+  text-align: center;
+  padding: 20px;
+  background-color: #F4D03F;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Teko', sans-serif;
+}
+
+.BIRRIA figure {
+  position: relative;
+  height: 200px;
+  width: 250px;
+  overflow: hidden;
+  box-shadow: 0px 1px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.BIRRIA img {
+  transition: all 500ms ease-out;
+}
+
+.BIRRIA figure .INFO3 {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(23, 32, 42, 0.7);
+  transition: all 500ms ease-out;
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+}
+
+.BIRRIA figure:hover>.INFO3 {
+  opacity: 1;
+  visibility: visible;
+}
+
+.BIRRIA figure:hover>.INFO3 h3 {
+  margin-top: 70px;
+  margin-bottom: 15px;
+}
+
+.BIRRIA figure:hover>img {
+  transform: scale(1.3);
+}
+
+.BIRRIA figure .INFO3 h3 {
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 120px;
+  transition: all 500ms ease-out;
+  margin-top: 30px;
+}
+
+.BIRRIA figure .INFO3 p {
+  color: #fff;
+  font-size: 20px;
+  line-height: 1.5;
+  width: 100%;
+  max-width: 220px;
+  margin: auto;
+}
+
+.MENUDO {
+  text-align: center;
+  padding: 20px;
+  background-color:  #F4D03F;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Teko', sans-serif;
+}
+
+.MENUDO figure {
+  position: relative;
+  height: 200px;
+  width: 250px;
+  overflow: hidden;
+  box-shadow: 0px 1px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.MENUDO img {
+  transition: all 500ms ease-out;
+}
+
+.MENUDO figure .INFO4 {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(23, 32, 42, 0.7);
+  transition: all 500ms ease-out;
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+}
+
+.MENUDO figure:hover>.INFO4 {
+  opacity: 1;
+  visibility: visible;
+}
+
+.MENUDO figure:hover>.INFO4 h3 {
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+
+.MENUDO figure:hover>img {
+  transform: scale(1.3);
+}
+
+.MENUDO figure .INFO4 h3 {
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 120px;
+  transition: all 500ms ease-out;
+  margin-top: 30px;
+}
+
+.MENUDO figure .INFO4 p {
+  color: #fff;
+  font-size: 20px;
+  line-height: 1.5;
+  width: 100%;
+  max-width: 250px;
+  margin: auto;
+}
+.CONSOME {
+  text-align: center;
+  padding: 20px;
+  background-color:  #F4D03F;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Teko', sans-serif;
+}
+
+.CONSOME figure {
+  position: relative;
+  height: 200px;
+  width: 250px;
+  overflow: hidden;
+  box-shadow: 0px 1px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.CONSOME img {
+  transition: all 500ms ease-out;
+}
+
+.CONSOME figure .INFO5 {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(23, 32, 42, 0.7);
+  transition: all 500ms ease-out;
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+}
+
+.CONSOME figure:hover>.INFO5 {
+  opacity: 1;
+  visibility: visible;
+}
+
+.CONSOME figure:hover>.INFO5 h3 {
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+
+.CONSOME figure:hover>img {
+  transform: scale(1.3);
+}
+
+.CONSOME figure .INFO5 h3 {
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 120px;
+  transition: all 500ms ease-out;
+  margin-top: 30px;
+}
+
+.CONSOME figure .INFO5 p {
+  color: #fff;
+  font-size: 20px;
+  line-height: 1.5;
+  width: 100%;
+  max-width: 220px;
+  margin: auto;
+}
+
+.ORDENBIRRIA {
+  text-align: center;
+  padding: 20px;
+  background-color:  #F4D03F;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Teko', sans-serif;
+}
+
+.ORDENBIRRIA figure {
+  position: relative;
+  height: 200px;
+  width: 250px;
+  overflow: hidden;
+  box-shadow: 0px 1px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.ORDENBIRRIA img {
+  transition: all 500ms ease-out;
+}
+
+.ORDENBIRRIA figure .INFO6 {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(23, 32, 42, 0.7);
+  transition: all 500ms ease-out;
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+}
+
+.ORDENBIRRIA figure:hover>.INFO6 {
+  opacity: 1;
+  visibility: visible;
+}
+
+.ORDENBIRRIA figure:hover>.INFO6 h3 {
+  margin-top: 60px;
+  margin-bottom: 15px;
+}
+
+.ORDENBIRRIA figure:hover>img {
+  transform: scale(1.3);
+}
+
+.ORDENBIRRIA figure .INFO6 h3 {
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 120px;
+  transition: all 500ms ease-out;
+  margin-top: 30px;
+}
+
+.ORDENBIRRIA figure .INFO6 p {
+  color: #fff;
+  font-size: 20px;
+  line-height: 1.5;
+  width: 100%;
+  max-width: 250px;
+  margin: auto;
+}
+.LONCHEBIRRIA {
+  text-align: center;
+  padding: 20px;
+  background-color:  #F4D03F;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Teko', sans-serif;
+}
+
+.LONCHEBIRRIA figure {
+  position: relative;
+  height: 200px;
+  width: 250px;
+  overflow: hidden;
+  box-shadow: 0px 1px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.LONCHEBIRRIA img {
+  transition: all 500ms ease-out;
+}
+
+.LONCHEBIRRIA figure .INFO7 {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(23, 32, 42, 0.7);
+  transition: all 500ms ease-out;
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+}
+
+.LONCHEBIRRIA figure:hover>.INFO7 {
+  opacity: 1;
+  visibility: visible;
+}
+
+.LONCHEBIRRIA figure:hover>.INFO7 h3 {
+  margin-top: 60px;
+  margin-bottom: 15px;
+}
+
+.LONCHEBIRRIA figure:hover>img {
+  transform: scale(1.3);
+}
+
+.LONCHEBIRRIA figure .INFO7 h3 {
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 120px;
+  transition: all 500ms ease-out;
+  margin-top: 30px;
+}
+
+.LONCHEBIRRIA figure .INFO7 p {
+  color: #fff;
+  font-size: 20px;
+  line-height: 1.5;
+  width: 100%;
+  max-width: 250px;
+  margin: auto;
+}
+.BARBACOA {
+  text-align: center;
+  padding: 20px;
+  background-color:  #F4D03F;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Teko', sans-serif;
+}
+
+.BARBACOA figure {
+  position: relative;
+  height: 200px;
+  width: 250px;
+  overflow: hidden;
+  box-shadow: 0px 1px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.BARBACOA img {
+  transition: all 500ms ease-out;
+}
+
+.BARBACOA figure .INFO8 {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(23, 32, 42, 0.7);
+  transition: all 500ms ease-out;
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+}
+
+.BARBACOA figure:hover>.INFO8 {
+  opacity: 1;
+  visibility: visible;
+}
+
+.BARBACOA figure:hover>.INFO8 h3 {
+  margin-top: 60px;
+  margin-bottom: 15px;
+}
+
+.BARBACOA figure:hover>img {
+  transform: scale(1.3);
+}
+
+.BARBACOA figure .INFO8 h3 {
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 120px;
+  transition: all 500ms ease-out;
+  margin-top: 30px;
+}
+
+.BARBACOA figure .INFO8 p {
+  color: #fff;
+  font-size: 20px;
+  line-height: 1.5;
+  width: 100%;
+  max-width: 250px;
+  margin: auto;
+}
+
+.HAMBURGUESA {
+  text-align: center;
+  padding: 20px;
+  background-color: #F4D03F;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Teko', sans-serif;
+}
+
+.HAMBURGUESA figure {
+  position: relative;
+  height: 200px;
+  width: 250px;
+  overflow: hidden;
+  box-shadow: 0px 1px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.HAMBURGUESA img {
+  transition: all 500ms ease-out;
+}
+
+.HAMBURGUESA figure .INFO9 {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(23, 32, 42, 0.7);
+  transition: all 500ms ease-out;
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+}
+
+.HAMBURGUESA figure:hover>.INFO9 {
+  opacity: 1;
+  visibility: visible;
+}
+
+.HAMBURGUESA figure:hover>.INFO9 h3 {
+  margin-top:40px;
+  margin-bottom: 10px;
+}
+
+.HAMBURGUESA figure:hover>img {
+  transform: scale(1.3);
+}
+
+.HAMBURGUESA figure .INFO9 h3 {
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 120px;
+  transition: all 500ms ease-out;
+  margin-top: 30px;
+}
+
+.HAMBURGUESA figure .INFO9 p {
+  color: #fff;
+  font-size: 20px;
+  line-height: 1.5;
+  width: 100%;
+  max-width: 250px;
+  margin: auto;
+}
+
+.PAPAS {
+  text-align: center;
+  padding: 20px;
+  background-color:  #F4D03F;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Teko', sans-serif;
+}
+
+.PAPAS figure {
+  position: relative;
+  height: 200px;
+  width: 250px;
+  overflow: hidden;
+  box-shadow: 0px 1px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.PAPAS img {
+  transition: all 500ms ease-out;
+}
+
+.PAPAS figure .INFO10 {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(23, 32, 42, 0.7);
+  transition: all 500ms ease-out;
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+}
+
+.PAPAS figure:hover>.INFO10 {
+  opacity: 1;
+  visibility: visible;
+}
+
+.PAPAS figure:hover>.INFO10 h3 {
+  margin-top: 65px;
+  margin-bottom: 10px;
+}
+
+.PAPAS figure:hover>img {
+  transform: scale(1.3);
+}
+
+.PAPAS figure .INFO10 h3 {
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 120px;
+  transition: all 500ms ease-out;
+  margin-top: 30px;
+}
+
+.PAPAS figure .INFO10 p {
+  color: #fff;
+  font-size: 20px;
+  line-height: 1.5;
+  width: 100%;
+  max-width: 250px;
+  margin: auto;
+}
+
+.TORTAKIKO {
+  text-align: center;
+  padding: 20px;
+  background-color:  #F4D03F;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Teko', sans-serif;
+}
+
+.TORTAKIKO figure {
+  position: relative;
+  height: 200px;
+  width: 250px;
+  overflow: hidden;
+  box-shadow: 0px 1px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.TORTAKIKO img {
+  transition: all 500ms ease-out;
+}
+
+.TORTAKIKO figure .INFO11 {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(23, 32, 42, 0.7);
+  transition: all 500ms ease-out;
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+}
+
+.TORTAKIKO figure:hover>.INFO11 {
+  opacity: 1;
+  visibility: visible;
+}
+
+.TORTAKIKO figure:hover>.INFO11 h3 {
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.TORTAKIKO figure:hover>img {
+  transform: scale(1.3);
+}
+
+.TORTAKIKO figure .INFO11 h3 {
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 120px;
+  transition: all 500ms ease-out;
+  margin-top: 30px;
+}
+
+.TORTAKIKO figure .INFO11 p {
+  color: #fff;
+  font-size: 20px;
+  line-height: 1.5;
+  width: 100%;
+  max-width: 200px;
+  margin: auto;
+}
+.CHAVO {
+  text-align: center;
+  padding: 20px;
+  background-color:  #F4D03F;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Teko', sans-serif;
+}
+
+.CHAVO figure {
+  position: relative;
+  height: 200px;
+  width: 250px;
+  overflow: hidden;
+  box-shadow: 0px 1px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.CHAVO img {
+  transition: all 500ms ease-out;
+}
+
+.CHAVO figure .INFO12 {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(23, 32, 42, 0.7);
+  transition: all 500ms ease-out;
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+}
+
+.CHAVO figure:hover>.INFO12 {
+  opacity: 1;
+  visibility: visible;
+}
+
+.CHAVO figure:hover>.INFO12 h3 {
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.CHAVO figure:hover>img {
+  transform: scale(1.3);
+}
+
+.CHAVO figure .INFO12 h3 {
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 120px;
+  transition: all 500ms ease-out;
+  margin-top: 30px;
+}
+
+.CHAVO figure .INFO12 p {
+  color: #fff;
+  font-size: 20px;
+  line-height: 1.5;
+  width: 100%;
+  max-width: 200px;
+  margin: auto;
+
+}
+.pie{
+text-align: center;
+background-color: #D4AC0D
+}
+.pie2{
+color: #FBFCFC;
+ font-family: 'Teko', sans-serif;
+  font-size: 15pt;
+  margin: 0;
+  padding: 0;
+
+}
+.pie3{
+color: #FBFCFC;
+ font-family: 'Teko', sans-serif;
+  font-size: 15pt;
+  margin: 0;
+  padding: 0;
+
+}
+.pie4{
+color: #FBFCFC;
+   font-family: 'Teko', sans-serif;
+    font-size: 15pt;
+    margin: 0;
+    padding: 0;
+
+}
